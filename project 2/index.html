@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Healthy Food</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f9f4;
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            background-color: #4CAF50;
+            overflow: hidden;
+            margin-bottom: 30px;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #45a049;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2e7d32;
+        }
+
+        h2, h3 {
+            color: #388e3c;
+            margin-top: 30px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        q {
+            display: block;
+            font-style: italic;
+            color: #555;
+            background-color: #e8f5e9;
+            padding: 10px;
+            border-left: 5px solid #66bb6a;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <ul>
+        <li><a href="page1.html">Fruits and Vegetables</a></li>
+        <li><a href="page2.html">Meat and Chicken</a></li>
+    </ul>
+
+    <h1>Healthy Food</h1>
+
+    <p>
+       <q>
+         Fruits and vegetables are an important part of a healthy diet. They are rich in essential vitamins, minerals, and fiber, which help the body stay strong and prevent many diseases...
+       </q>
+    </p>
+
+    <h2 id="Fruits-and-Vegetables">Fruits and Vegetables</h2>
+    <p>
+        <q>
+            Fruits and vegetables are an important part of a healthy diet.
+        </q>
+        <a href="page1.html" target="_self">
+            <img src="photo/Fruits and Vegetables photo.jpg" title="Fruits and Vegetables" width="900">
+        </a>
+    </p>
+
+    <h3 id="Meat-and-Chicken">Meat and Chicken</h3>
+    <p>
+        <q>
+            Meat and chicken are a great source of protein and essential nutrients.
+        </q>
+        <img src="photo/Meat and Chicken.webp" usemap="#meatmap" alt="Meat and Chicken" width="900">
+        <map name="meatmap">
+         <area target="_self"   href="page3.html" coords="1034,670,836,469,586,186,855,129,1068,119,1111,383" shape="poly">
+         <area target="_self"  href="page2.html" coords="366,85,201,322,197,582,799,674,577,333" shape="poly">
+        </map>
+    </p>
+
+</body>
+</html>
